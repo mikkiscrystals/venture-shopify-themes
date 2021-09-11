@@ -116,7 +116,7 @@
             "type": "social",
             "settings": {
               "title": "Follow us",
-              "align": "left"
+              "align": "center"
             }
           }
         },
