@@ -118,11 +118,21 @@
               "title": "Follow us",
               "align": "center"
             }
+          },
+          "d51e1bd0-4644-4325-93e3-231278b8c48c": {
+            "type": "newsletter",
+            "settings": {
+              "color_newsletter_input": "#1a1a1a",
+              "color_newsletter_input_text": "#fff",
+              "title": "Be in the know",
+              "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+            }
           }
         },
         "block_order": [
           "linklist",
-          "55bf8a3a-9f62-4829-a31f-80c9ca67dd60"
+          "55bf8a3a-9f62-4829-a31f-80c9ca67dd60",
+          "d51e1bd0-4644-4325-93e3-231278b8c48c"
         ],
         "settings": {
         }
