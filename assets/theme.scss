@@ -224,52 +224,52 @@ $grid-breakpoint-has-push: ($medium-up);
 /*================ Color Variables ================*/
 
 // Button colors
-$color-btn-primary: #ffa7d7;
+$color-btn-primary: #3a2855;
 $color-btn-primary-hover: adaptive-color($color-btn-primary, 10%);
 $color-btn-primary-active: adaptive-color($color-btn-primary-hover, 10%);
-$color-btn-primary-text: #fff7f7;
+$color-btn-primary-text: #e6e4e8;
 
-$color-btn-secondary: #f0e1ed;
+$color-btn-secondary: #3a2855;
 $color-btn-secondary-hover: adaptive-color($color-btn-secondary, 5%);
 $color-btn-secondary-active: adaptive-color($color-btn-secondary-hover, 10%);
 $color-btn-secondary-text: color-control($color-btn-secondary);
 
-$color-btn-secondary-accent: #ffa7d7;
+$color-btn-secondary-accent: #3a2855;
 $color-btn-secondary-accent-hover: adaptive-color($color-btn-secondary-accent, 10%);
 $color-btn-secondary-accent-active: adaptive-color($color-btn-secondary-accent-hover, 10%);
 
 // Accent color (nav and links)
-$color-accent: #ffa7d7;
-$color-accent-hover: darken(#ffa7d7, 15%);
-$color-accent-text: #fff7f7;
+$color-accent: #3a2855;
+$color-accent-hover: darken(#3a2855, 15%);
+$color-accent-text: #e6e4e8;
 
 // General colors
-$color-body-text: #000000;
-$color-body: #ffffff;
-$color-content: #ffffff;
+$color-body-text: #3a2855;
+$color-body: #e6e4e8;
+$color-content: #e6e4e8;
 $color-border: $color-body;
 $color-border-body-darken: darken($color-body, 10%);
-$color-heading: #000000;
+$color-heading: #3a2855;
 
 // Header and footer
-$color-header: #ffffff;
+$color-header: #3a2855;
 $color-header-border: adaptive-color($color-header, 5%);
-$color-header-links: #000000;
+$color-header-links: #e6e4e8;
 $color-header-links-rgba: rgba($color-header-links, 0.6);
-$color-footer: #f0e1ed;
-$color-footer-text: #141212;
-$color-footer-text-rgba: rgba(#141212, 0.6);
+$color-footer: #3a2855;
+$color-footer-text: #e6e4e8;
+$color-footer-text-rgba: rgba(#e6e4e8, 0.6);
 $color-footer-border: adaptive-color($color-footer, 5%);
 
 // Emphasized title blocks (like hero slider)
 $color-emphasized-title-bg: #ffffff;
-$color-emphasized-title-text: #000000;
+$color-emphasized-title-text: #3a2855;
 $color-emphasized-subtitle-bg: $color-header;
 $color-emphasized-subtitle-text: $color-header-links;
 
 // Hero
 $color-hero-title-bg: #ffffff;
-$color-hero-title-text: #000000;
+$color-hero-title-text: #3a2855;
 $color-hero-subtitle-bg: $color-header;
 $color-hero-subtitle-text: $color-header-links;
 $color-hero-arrows: #000;
@@ -352,40 +352,40 @@ $collection-card-height: $product-card-height + $product-image-margin-bottom;
   font-family: Lato;
   font-weight: 400;
   font-style: normal;
-  src: url("https://fonts.shopifycdn.com/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?&hmac=beada421dade2a55e535fd018df2fcba589eadbc0002836c566ad6e83cf9080d") format("woff2"),
-       url("https://fonts.shopifycdn.com/lato/lato_n4.e0ee1e2c008a0f429542630edf70be01045ac5e9.woff?&hmac=6ca17e818134212bbef3bd6543159373e89054b1d3df5b04b9f0dfd165935298") format("woff");
+  src: url("https://fonts.shopifycdn.com/lato/lato_n4.c86cddcf8b15d564761aaa71b6201ea326f3648b.woff2?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=5183dfff188497208b49d480bf975cfa4d94b354058e943dd332a837c773d7e1") format("woff2"),
+       url("https://fonts.shopifycdn.com/lato/lato_n4.e0ee1e2c008a0f429542630edf70be01045ac5e9.woff?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=fd60f8498447dfa8aade1156adcf92572cbebc544225a9e23af56a270aab8444") format("woff");
 }
 
 @font-face {
   font-family: "Merriweather Sans";
   font-weight: 300;
   font-style: normal;
-  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n3.e3c913deaeba30e9b635d15c7ab55d59cdeece07.woff2?&hmac=c03b42575c54df9cb4d774427fcf1c7d52b5cae5a9fd0b309458bee3ba4ed77b") format("woff2"),
-       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n3.11f1ef1e4bf37642d9ee9dd870be261020adc642.woff?&hmac=5a40d0875ff3d446e51d7eb7f1bd3508e5235d1d3cae1466d82f3b5ced3c126a") format("woff");
+  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n3.e3c913deaeba30e9b635d15c7ab55d59cdeece07.woff2?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=1a10a12aea3cead007a8698e45c898f24a9974bf36da544dadb809850f7e6ee9") format("woff2"),
+       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n3.11f1ef1e4bf37642d9ee9dd870be261020adc642.woff?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=713045aba229b35aa5247486116df487852c6379c60b9e0a035519a13f9a12c2") format("woff");
 }
 
 @font-face {
   font-family: "Merriweather Sans";
   font-weight: 400;
   font-style: normal;
-  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n4.cc01d4aa464d6f29e336ecf474c9a9ea829e3c5d.woff2?&hmac=481298baa404646c9b09d2bfe49d63f6abaedcf40e288d6c74f7089303a2987a") format("woff2"),
-       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n4.5ee6904e9c6d28696a9f52c4880d425da0229a95.woff?&hmac=82c03d88cd92963442ab17f2f6aee97d798fd35e15707e4461268d65de426ed1") format("woff");
+  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n4.cc01d4aa464d6f29e336ecf474c9a9ea829e3c5d.woff2?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=37025a40a824f129dd6c88394c8a84d367c9caace0008a1ff0aee767bb5c43e2") format("woff2"),
+       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_n4.5ee6904e9c6d28696a9f52c4880d425da0229a95.woff?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=7b0399de01abc6d605fd0a0505b6fa7622989eb58106001b7327f19eaf9582d1") format("woff");
 }
 
 @font-face {
   font-family: "Merriweather Sans";
   font-weight: 300;
   font-style: italic;
-  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i3.7fce18d98345574393342acf136621c7064a3d4d.woff2?&hmac=f24727c91c35e23d4cc9246a375057d80f1c319c5d4ad012a0cc4b92c17f4e10") format("woff2"),
-       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i3.f1c429274dc3f009f8f27db8d0a0876cbac46d09.woff?&hmac=5f2a1d677de1a590c1affabc28ef528aa426f013c6ba8e5f6144939e5697b554") format("woff");
+  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i3.7fce18d98345574393342acf136621c7064a3d4d.woff2?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=5194129120cab0504b2901221a6dda9f487020c37d38cea91bcf75843c795115") format("woff2"),
+       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i3.f1c429274dc3f009f8f27db8d0a0876cbac46d09.woff?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=fa94c18a0fe0f04e43993c56a7f38deb67aecfb11ab61c93a0d61beec8b41714") format("woff");
 }
 
 @font-face {
   font-family: "Merriweather Sans";
   font-weight: 400;
   font-style: italic;
-  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i4.54a432ccbead64742f789d03d3b60df4f216218d.woff2?&hmac=28a008845979a9d273814ffc837ef815beb2cb1ac2ae9c334c908d207953e1f8") format("woff2"),
-       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i4.9c5b4b0c231fe4f0c5adb294c14590d55d43b8f3.woff?&hmac=01e7de569b46f8c0951d57785f039d9d069676fb677ff1dc51dacaaa1886d30f") format("woff");
+  src: url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i4.54a432ccbead64742f789d03d3b60df4f216218d.woff2?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=a8eb332ab5e984e890a973403f8bedcd35fbdc5f0e4c01bb9785282f2d9363b9") format("woff2"),
+       url("https://fonts.shopifycdn.com/merriweather_sans/merriweathersans_i4.9c5b4b0c231fe4f0c5adb294c14590d55d43b8f3.woff?h1=cHVycGxlLWxvdHVzLmNh&h2=aW5mby5wdXJwbGUtbG90dXMuY2E&hmac=0679307db22894c833ce8b7ec8629a60a37deede60eac3b3cd2424e5822d33dd") format("woff");
 }
 
 
@@ -395,7 +395,7 @@ $font-style-accent: normal;
 $font-weight-accent: 400;
 
 // Body text
-$font-stack-body: "Karla","HelveticaNeue","Helvetica Neue",sans-serif;
+$font-stack-body: "Merriweather Sans", sans-serif;
 $font-style-body: normal;
 $font-weight-body: 300;
 $font-weight-body-bold: 400;
@@ -1422,7 +1422,7 @@ select {
   @include prefix(appearance, none, webkit moz spec);
   background-position: right center;
   background: {
-    image: url('//cdn.shopify.com/s/files/1/0116/9958/5081/t/2/assets/ico-select.svg?15086578673203810889');
+    image: url('//cdn.shopify.com/s/files/1/0586/5160/7208/t/40/assets/ico-select.svg?v=8010346243918904133');
     repeat: no-repeat;
     position: right 10px center;
     color: transparent;
@@ -1721,12 +1721,12 @@ input,
 textarea,
 button,
 select {
-  font-size: $font-size-base;
-  font-family: $font-stack-body;
   font-style: $font-style-body;
   font-weight: $font-weight-body;
-  color: $color-body-text;
   line-height: 1.375;
+  font-size: 15px;
+  font-family: "Karla","HelveticaNeue","Helvetica Neue",sans-serif !important;
+  color: #8e8a8a !important;
 }
 
 // Prevent zoom on touch devices in active inputs
@@ -2576,7 +2576,7 @@ $slick-opacity-not-active: 0.25;
 
 // Only called once so make sure proper file is grabbed
 @function slick-image-url($url) {
-  @return url(//cdn.shopify.com/s/files/1/0116/9958/5081/t/2/assets/ajax-loader.gif?15086578673203810889);
+  @return url(//cdn.shopify.com/s/files/1/0586/5160/7208/t/40/assets/ajax-loader.gif?v=4135686330247201572);
 }
 
 // Unused intentionally
