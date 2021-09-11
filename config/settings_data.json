@@ -172,7 +172,7 @@
           "1529844390401"
         ],
         "settings": {
-          "stretch_collection_image": false
+          "stretch_collection_image": true
         }
       },
       "featured-products": {
@@ -188,6 +188,7 @@
           "image-content-0": {
             "type": "image_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/wil.jpg"
             }
           }
         },
@@ -213,13 +214,6 @@
         "settings": {
           "product_tags_enable": true,
           "product_sorting_enable": true
-        }
-      },
-      "1529377531442": {
-        "type": "featured-products",
-        "settings": {
-          "collection": "cat",
-          "rows": 1
         }
       },
       "1529378374611": {
@@ -260,6 +254,7 @@
       },
       "1529580556896": {
         "type": "brand-list",
+        "disabled": true,
         "blocks": {
           "1529580556896-0": {
             "type": "logo",
@@ -295,7 +290,7 @@
       "1529728330853": {
         "type": "featured-products",
         "settings": {
-          "collection": "star-war",
+          "collection": "spheres-hearts",
           "rows": 1
         }
       },
@@ -319,8 +314,6 @@
     "content_for_index": [
       "featured-collections",
       "1529845986513",
-      "featured-products",
-      "1529377531442",
       "1529378374611",
       "1529728330853",
       "image-content",
