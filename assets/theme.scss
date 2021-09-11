@@ -224,24 +224,24 @@ $grid-breakpoint-has-push: ($medium-up);
 /*================ Color Variables ================*/
 
 // Button colors
-$color-btn-primary: #3a2855;
+$color-btn-primary: #79639a;
 $color-btn-primary-hover: adaptive-color($color-btn-primary, 10%);
 $color-btn-primary-active: adaptive-color($color-btn-primary-hover, 10%);
-$color-btn-primary-text: #e6e4e8;
+$color-btn-primary-text: #ffffff;
 
 $color-btn-secondary: #3a2855;
 $color-btn-secondary-hover: adaptive-color($color-btn-secondary, 5%);
 $color-btn-secondary-active: adaptive-color($color-btn-secondary-hover, 10%);
 $color-btn-secondary-text: color-control($color-btn-secondary);
 
-$color-btn-secondary-accent: #3a2855;
+$color-btn-secondary-accent: #79639a;
 $color-btn-secondary-accent-hover: adaptive-color($color-btn-secondary-accent, 10%);
 $color-btn-secondary-accent-active: adaptive-color($color-btn-secondary-accent-hover, 10%);
 
 // Accent color (nav and links)
-$color-accent: #3a2855;
-$color-accent-hover: darken(#3a2855, 15%);
-$color-accent-text: #e6e4e8;
+$color-accent: #79639a;
+$color-accent-hover: darken(#79639a, 15%);
+$color-accent-text: #ffffff;
 
 // General colors
 $color-body-text: #3a2855;
@@ -254,11 +254,11 @@ $color-heading: #3a2855;
 // Header and footer
 $color-header: #3a2855;
 $color-header-border: adaptive-color($color-header, 5%);
-$color-header-links: #e6e4e8;
+$color-header-links: #ffffff;
 $color-header-links-rgba: rgba($color-header-links, 0.6);
 $color-footer: #3a2855;
-$color-footer-text: #e6e4e8;
-$color-footer-text-rgba: rgba(#e6e4e8, 0.6);
+$color-footer-text: #ffffff;
+$color-footer-text-rgba: rgba(#ffffff, 0.6);
 $color-footer-border: adaptive-color($color-footer, 5%);
 
 // Emphasized title blocks (like hero slider)
@@ -1422,7 +1422,7 @@ select {
   @include prefix(appearance, none, webkit moz spec);
   background-position: right center;
   background: {
-    image: url('//cdn.shopify.com/s/files/1/0586/5160/7208/t/40/assets/ico-select.svg?v=8010346243918904133');
+    image: url('//cdn.shopify.com/s/files/1/0586/5160/7208/t/40/assets/ico-select.svg?v=17153988119608132599');
     repeat: no-repeat;
     position: right 10px center;
     color: transparent;
