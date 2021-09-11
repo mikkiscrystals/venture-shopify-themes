@@ -112,13 +112,6 @@
               "link_list": "footer"
             }
           },
-          "55bf8a3a-9f62-4829-a31f-80c9ca67dd60": {
-            "type": "social",
-            "settings": {
-              "title": "Follow us",
-              "align": "center"
-            }
-          },
           "d51e1bd0-4644-4325-93e3-231278b8c48c": {
             "type": "newsletter",
             "settings": {
@@ -127,12 +120,19 @@
               "title": "Be in the know",
               "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
             }
+          },
+          "6c4119b9-776d-4c55-9b12-a26045e51a3f": {
+            "type": "social",
+            "settings": {
+              "title": "Follow us",
+              "align": "center"
+            }
           }
         },
         "block_order": [
           "linklist",
-          "55bf8a3a-9f62-4829-a31f-80c9ca67dd60",
-          "d51e1bd0-4644-4325-93e3-231278b8c48c"
+          "d51e1bd0-4644-4325-93e3-231278b8c48c",
+          "6c4119b9-776d-4c55-9b12-a26045e51a3f"
         ],
         "settings": {
         }
