@@ -143,25 +143,37 @@
           "featured-collections-1": {
             "type": "collection",
             "settings": {
-              "collection": "pencil-case"
+              "collection": "carvings"
             }
           },
           "1529143481506": {
             "type": "collection",
             "settings": {
-              "collection": "backpack"
+              "collection": "chakra"
             }
           },
           "1529590679074": {
             "type": "collection",
             "settings": {
-              "collection": "squishy-toy"
+              "collection": "decor"
             }
           },
           "1529844390401": {
             "type": "collection",
             "settings": {
-              "collection": "gel-pens-pencil"
+              "collection": "towers-freeforms"
+            }
+          },
+          "116c5cc2-281e-477e-9e54-0898529a68e3": {
+            "type": "collection",
+            "settings": {
+              "collection": "jewelry"
+            }
+          },
+          "63799ce8-dc7d-4406-bbde-69a091e6ddb7": {
+            "type": "collection",
+            "settings": {
+              "collection": "spheres-hearts"
             }
           }
         },
@@ -169,7 +181,9 @@
           "featured-collections-1",
           "1529143481506",
           "1529590679074",
-          "1529844390401"
+          "1529844390401",
+          "116c5cc2-281e-477e-9e54-0898529a68e3",
+          "63799ce8-dc7d-4406-bbde-69a091e6ddb7"
         ],
         "settings": {
           "stretch_collection_image": true
@@ -216,13 +230,6 @@
           "product_sorting_enable": true
         }
       },
-      "1529378374611": {
-        "type": "featured-products",
-        "settings": {
-          "collection": "flamingo",
-          "rows": 1
-        }
-      },
       "list-collections-template": {
         "type": "list-collections-template",
         "settings": {
@@ -252,41 +259,6 @@
           "cart_notes_enable": true
         }
       },
-      "1529580556896": {
-        "type": "brand-list",
-        "disabled": true,
-        "blocks": {
-          "1529580556896-0": {
-            "type": "logo",
-            "settings": {
-            }
-          },
-          "1529580556896-4": {
-            "type": "logo",
-            "settings": {
-            }
-          },
-          "1529580556896-5": {
-            "type": "logo",
-            "settings": {
-            }
-          },
-          "1529580556896-6": {
-            "type": "logo",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "1529580556896-0",
-          "1529580556896-4",
-          "1529580556896-5",
-          "1529580556896-6"
-        ],
-        "settings": {
-          "title": ""
-        }
-      },
       "1529728330853": {
         "type": "featured-products",
         "settings": {
@@ -309,15 +281,48 @@
           "heading": "Subscribe to our newsletter",
           "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
         }
+      },
+      "16313993115f872016": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "decor",
+          "rows": 2
+        }
+      },
+      "1631399401142a8db5": {
+        "type": "quotes",
+        "blocks": {
+          "1631399401142a8db5-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1631399401142a8db5-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "1631399401142a8db5-0",
+          "1631399401142a8db5-1"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
       }
     },
     "content_for_index": [
       "featured-collections",
       "1529845986513",
-      "1529378374611",
       "1529728330853",
       "image-content",
-      "1529580556896"
+      "16313993115f872016",
+      "1631399401142a8db5"
     ]
   },
   "presets": {
