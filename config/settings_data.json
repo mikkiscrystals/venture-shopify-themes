@@ -115,8 +115,8 @@
           "d51e1bd0-4644-4325-93e3-231278b8c48c": {
             "type": "newsletter",
             "settings": {
-              "color_newsletter_input": "#1a1a1a",
-              "color_newsletter_input_text": "#fff",
+              "color_newsletter_input": "#e6e4e8",
+              "color_newsletter_input_text": "#3a2855",
               "title": "Be in the know",
               "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
             }
