@@ -115,8 +115,8 @@
           "1529834348915": {
             "type": "newsletter",
             "settings": {
-              "color_newsletter_input": "#ffffff",
-              "color_newsletter_input_text": "#000000",
+              "color_newsletter_input": "#e6e4e8",
+              "color_newsletter_input_text": "#3a2855",
               "title": "Be in the know",
               "subheading": "<p>Sign up for the latest news, offers and styles<\/p>"
             }
