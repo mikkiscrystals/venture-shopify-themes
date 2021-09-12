@@ -3088,7 +3088,7 @@ $slick-opacity-not-active: 0.25;
 
 .site-nav__link {
   @include nav-text-style();
-  position: relative;
+  position: 20%;
   color: $color-header-links;
   color: $color-header-links-rgba;
   padding: $gutter-site;
