@@ -254,11 +254,11 @@ $color-heading: #3a2855;
 // Header and footer
 $color-header: #3a2855;
 $color-header-border: adaptive-color($color-header, 5%);
-$color-header-links: #ffffff;
+$color-header-links: #E6E4E8;
 $color-header-links-rgba: rgba($color-header-links, 0.6);
 $color-footer: #3a2855;
-$color-footer-text: #ffffff;
-$color-footer-text-rgba: rgba(#ffffff, 0.6);
+$color-footer-text: #E6E4E8;
+$color-footer-text-rgba: rgba(#E6E4E8, 0.6);
 $color-footer-border: adaptive-color($color-footer, 5%);
 
 // Emphasized title blocks (like hero slider)

@@ -1,7 +1,7 @@
 {
   "current": {
     "color_header_bg": "#3a2855",
-    "color_header_links": "#ffffff",
+    "color_header_links": "#E6E4E8",
     "color_body_bg": "#e6e4e8",
     "color_content_bg": "#e6e4e8",
     "color_body_headings": "#3a2855",
@@ -9,7 +9,7 @@
     "color_button_bg": "#79639a",
     "color_button_text": "#ffffff",
     "color_footer_bg": "#3a2855",
-    "color_footer_text": "#ffffff",
+    "color_footer_text": "#E6E4E8",
     "color_hero_text": "#3a2855",
     "color_hero_bg": "#ffffff",
     "type_accent_family": "lato_n4",
