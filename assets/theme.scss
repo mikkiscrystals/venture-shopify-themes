@@ -1088,7 +1088,7 @@ symbol.icon:not(.icon--full-color) {
   polygon,
   polyline,
   rect {
-    fill: inherit;
+    fill: .color_footer_text;
     stroke: inherit;
   }
 }
