@@ -227,7 +227,7 @@ $grid-breakpoint-has-push: ($medium-up);
 $color-btn-primary: #79639a;
 $color-btn-primary-hover: adaptive-color($color-btn-primary, 10%);
 $color-btn-primary-active: adaptive-color($color-btn-primary-hover, 10%);
-$color-btn-primary-text: #ffffff;
+$color-btn-primary-text: #e6e4e8;
 
 $color-btn-secondary: #3a2855;
 $color-btn-secondary-hover: adaptive-color($color-btn-secondary, 5%);
@@ -241,7 +241,7 @@ $color-btn-secondary-accent-active: adaptive-color($color-btn-secondary-accent-h
 // Accent color (nav and links)
 $color-accent: #79639a;
 $color-accent-hover: darken(#79639a, 15%);
-$color-accent-text: #ffffff;
+$color-accent-text: #e6e4e8;
 
 // General colors
 $color-body-text: #3a2855;
